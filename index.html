@@ -293,6 +293,21 @@
     </footer>
 
     <script>
+
+
+
+
+           const mobileMenu = document.querySelector('.mobile-menu');
+                const navLinks = document.querySelector('.nav-links');
+
+                mobileMenu.addEventListener('click', () => {
+                    navLinks.classList.toggle('active');
+            });
+
+
+
+
+        
         // Header scroll effect
         window.addEventListener('scroll', function() {
             const header = document.getElementById('header');
